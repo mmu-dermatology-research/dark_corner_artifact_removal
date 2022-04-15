@@ -11,7 +11,7 @@ If you use any part of the DCA masking/removal process in this research project,
   title={Dark Corner on Skin Lesion Image Dataset: Does it matter?},
   author={Pewton, Samuel William and Yap, Moi Hoon},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
-  pages={to appear},
+  pages={TBC},
   year={2022}
 }
 ```
