@@ -1,6 +1,8 @@
 # Dark Corner Artifact Removal
 
-This repository contains all code and experiments created for dark corner artifact removal. 
+This repository contains all code and experiments created for dark corner artifact removal.
+
+Please read the DISCLAIMER before using any of the methods or code from this repository.
 
 If you use any part of the DCA masking/removal process in this research project, please consider citing this paper:
 
