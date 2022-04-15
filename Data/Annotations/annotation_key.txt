@@ -1,0 +1,39 @@
+(600x magnification)
+
+Border Types:
+0 - no border
+1 - rows on top and/or bottom is black or grey
+3 - DCA
+4 - non-contact image background
+5 - inverted DCA
+
+
+
+
+
+Other:
+- more than 1 lesion in the image
+- random marking
+- unknown item going diagonally across image
+- random dark object
+- non contact image (could be an image of an ear finger etc)
+- blue pen
+- blurred edges from contact device not making contact
+- entirely blurry image
+- image on a finger
+- image completely distorted by immersion fluid
+- blood vessel
+- fold in skin
+- grid overlay
+- date/time overlay
+
+
+
+
+
+DCA Types:
+Small_DCA -  1-24%
+Medium_DCA - 25-49%
+Large_DCA -  50+%
+Oth -        <1%
+
