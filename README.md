@@ -1,6 +1,6 @@
 # Dark Corner Artifact Removal
 
-This repository stores all code and experiments created for dark corner artifact removal. 
+This repository contains all code and experiments created for dark corner artifact removal. 
 
 If you use any part of the DCA masking/removal process in this research project, please consider citing this paper:
 
@@ -16,7 +16,7 @@ If you use any part of the DCA masking/removal process in this research project,
 
 The main dataset used in this research is the result from the duplicate removal process detailed in [this](https://github.com/mmu-dermatology-research/isic_duplicate_removal_strategy) repository.
 
-If using this dataset please consider citing the following:
+If using this dataset please consider citing the following paper:
 
 ```
 @article{cassidy2021isic,
@@ -186,7 +186,7 @@ Full results for the deep learning experiments:
 </table>
 
 
-**Inpainting Results (Navier Stokes based method)**
+**Inpainting Results (Navier-Stokes based method)**
 <table>
 	<tr>
 		<td>Model</td><td>Settings</td><td colspan="3">Metrics</td><td colspan="3">Micro-Average</td>
