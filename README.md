@@ -18,7 +18,7 @@ If you use any part of the DCA masking/removal process in this research project,
 
 The main dataset used in this research is the result from the duplicate removal process detailed in [this](https://github.com/mmu-dermatology-research/isic_duplicate_removal_strategy) repository.
 
-If using this dataset please consider citing the following paper:
+If using this dataset or any of the associated methods then please consider citing the following paper:
 
 ```
 @article{cassidy2021isic,
