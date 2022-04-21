@@ -109,20 +109,20 @@ Dark_Corner_Artifact_Removal
 
 This project requires the following installations:
 
- * Python 3.x
- * Anaconda
- * [pandas](https://pandas.pydata.org/)
- * [numpy](https://numpy.org/)
- * [scikit-learn](https://scikit-learn.org/stable/)
- * scikit-image
+ * Python 3.9.7
+ * Anaconda 4.11.0
+ * [pandas](https://pandas.pydata.org/) 1.3.5
+ * [numpy](https://numpy.org/) 1.21.5
+ * [scikit-learn](https://scikit-learn.org/stable/) 1.0.2
+ * scikit-image 0.16.2
  * [Jupyter Notebook](https://jupyter.org/install)
- * [matplotlib](https://matplotlib.org/)
- * [OpenCV](https://docs.opencv.org/4.5.2/d5/de5/tutorial_py_setup_in_windows.html)
- * [Pillow](https://pillow.readthedocs.io/en/stable/installation.html)
- * [Tensorflow](https://www.tensorflow.org/install)
- * Tensorflow-GPU
- * CUDA
- * CuDNN
+ * [matplotlib](https://matplotlib.org/) 3.5.0
+ * [OpenCV](https://docs.opencv.org/4.5.2/d5/de5/tutorial_py_setup_in_windows.html) 4.5.5
+ * [Pillow](https://pillow.readthedocs.io/en/stable/installation.html) 8.4.0
+ * [Tensorflow](https://www.tensorflow.org/install) 2.9.0-dev20220203
+ * Tensorflow-GPU 2.9.0-dev20220203
+ * CUDA 11.2.1
+ * CuDNN 8.1
  * [Keras](https://keras.io/)
 
 ## Project Steps
