@@ -1,6 +1,6 @@
 # Dark Corner Artifact Removal
 
-This repository contains all code and experiments created for dark corner artifact removal.
+This repository contains all code and experiments created for dark corner artifact removal for ISIC (and other) skin lesion images.
 
 Please read the DISCLAIMER before using any of the methods or code from this repository.
 
