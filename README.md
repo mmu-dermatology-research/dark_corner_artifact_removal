@@ -166,29 +166,28 @@ Full results for the deep learning experiments:
 		<td>AUC</td>
 		<td>Precision</td>
 	</tr>
-	<tr><td>VGG16</td><td>33</td><td>0.78</td><td>0.73</td><td>0.84</td><td>0.77</td><td>0.87</td><td>0.82</td></tr>
-	<tr><td>VGG19</td><td>32</td><td>0.78</td><td>0.76</td><td>0.80</td><td>0.78</td><td>0.87</td><td>0.80</td></tr>
-	<tr><td>Xception</td><td>20</td><td>0.81</td><td>0.76</td><td>0.86</td><td>0.80</td><td>0.88</td><td>0.84</td></tr>
-	<tr><td>ResNet50</td><td>18</td><td>0.79</td><td>0.74</td><td>0.85</td><td>0.78</td><td>0.87</td><td>0.83</td></tr>
-	<tr><td>ResNet101</td><td>6</td><td>0.78</td><td>0.70</td><td>0.85</td><td>0.76</td><td>0.85</td><td>0.82</td></tr>
-	<tr><td>ResNet152</td><td>19</td><td>0.79</td><td>0.74</td><td>0.84</td><td>0.78</td><td>0.87</td><td>0.82</td></tr>
-	<tr><td>ResNet50V2</td><td>14</td><td>0.77</td><td>0.73</td><td>0.82</td><td>0.76</td><td>0.85</td><td>0.80</td></tr>
-	<tr><td>ResNet101V2</td><td>41</td><td>0.79</td><td>0.78</td><td>0.79</td><td>0.78</td><td>0.87</td><td>0.79</td></tr>
-	<tr><td>ResNet152V2</td><td>25</td><td>0.78</td><td>0.77</td><td>0.78</td><td>0.78</td><td>0.85</td><td>0.78</td></tr>
-	<tr><td>InceptionV3</td><td>36</td><td>0.80</td><td>0.81</td><td>0.80</td><td>0.80</td><td>0.88</td><td>0.80</td></tr>
-	<tr><td>InceptionResNetV2</td><td>20</td><td>0.82</td><td>0.80</td><td>0.83</td><td>0.81</td><td>0.89</td><td>0.82</td></tr>
-	<tr><td>DenseNet121</td><td>5</td><td>0.76</td><td>0.67</td><td>0.84</td><td>0.73</td><td>0.82</td><td>0.81</td></tr>
-	<tr><td>DenseNet169</td><td>36</td><td>0.80</td><td>0.72</td><td>0.87</td><td>0.78</td><td>0.88</td><td>0.85</td></tr>
-	<tr><td>DenseNet201</td><td>17</td><td>0.79</td><td>0.70</td><td>0.87</td><td>0.77</td><td>0.86</td><td>0.84</td></tr>
-	<tr><td>EfficientNetB0</td><td>28</td><td>0.78</td><td>0.69</td><td>0.87</td><td>0.76</td><td>0.87</td><td>0.84</td></tr>
-	<tr><td>EfficientNetB1</td><td>19</td><td>0.77</td><td>0.68</td><td>0.86</td><td>0.75</td><td>0.85</td><td>0.83</td></tr>
-	<tr><td>EfficientNetB3</td><td>13</td><td>0.75</td><td>0.63</td><td>0.88</td><td>0.72</td><td>0.82</td><td>0.84</td></tr>
-	<tr><td>EfficientNetB4</td><td>46</td><td>0.78</td><td>0.71</td><td>0.85</td><td>0.76</td><td>0.86</td><td>0.83</td></tr>
-	
+	<tr><td>VGG16</td><td>33</td><td>0.78</td><td>0.84</td><td>0.73</td><td>0.80</td><td>0.87</td><td>0.76</td></tr>
+	<tr><td>VGG19</td><td>32</td><td>0.78</td><td>0.80</td><td>0.76</td><td>0.79</td><td>0.87</td><td>0.77</td></tr>
+	<tr><td>Xception</td><td>20</td><td>0.81</td><td>0.86</td><td>0.76</td><td>0.82</td><td>0.88</td><td>0.78</td></tr>
+	<tr><td>ResNet50</td><td>18</td><td>0.79</td><td>0.85</td><td>0.74</td><td>0.80</td><td>0.87</td><td>0.77</td></tr>
+	<tr><td>ResNet101</td><td>6</td><td>0.78</td><td>0.85</td><td>0.70</td><td>0.79</td><td>0.85</td><td>0.74</td></tr>
+	<tr><td>ResNet152</td><td>19</td><td>0.79</td><td>0.84</td><td>0.74</td><td>0.80</td><td>0.87</td><td>0.76</td></tr>
+	<tr><td>ResNet50V2</td><td>14</td><td>0.77</td><td>0.82</td><td>0.73</td><td>0.78</td><td>0.85</td><td>0.75</td></tr>
+	<tr><td>ResNet101V2</td><td>41</td><td>0.79</td><td>0.79</td><td>0.78</td><td>0.79</td><td>0.87</td><td>0.78</td></tr>
+	<tr><td>ResNet152V2</td><td>25</td><td>0.78</td><td>0.78</td><td>0.77</td><td>0.78</td><td>0.85</td><td>0.77</td></tr>
+	<tr><td>InceptionV3</td><td>36</td><td>0.80</td><td>0.80</td><td>0.81</td><td>0.80</td><td>0.88</td><td>0.80</td></tr>
+	<tr><td>InceptionResNetV2</td><td>20</td><td>0.82</td><td>0.83</td><td>0.80</td><td>0.82</td><td>0.89</td><td>0.81</td></tr>
+	<tr><td>DenseNet121</td><td>5</td><td>0.76</td><td>0.84</td><td>0.67</td><td>0.78</td><td>0.82</td><td>0.72</td></tr>
+	<tr><td>DenseNet169</td><td>36</td><td>0.80</td><td>0.87</td><td>0.72</td><td>0.81</td><td>0.88</td><td>0.76</td></tr>
+	<tr><td>DenseNet201</td><td>17</td><td>0.79</td><td>0.87</td><td>0.70</td><td>0.80</td><td>0.86</td><td>0.74</td></tr>
+	<tr><td>EfficientNetB0</td><td>28</td><td>0.78</td><td>0.87</td><td>0.69</td><td>0.80</td><td>0.87</td><td>0.74</td></tr>
+	<tr><td>EfficientNetB1</td><td>19</td><td>0.77</td><td>0.86</td><td>0.68</td><td>0.79</td><td>0.85</td><td>0.73</td></tr>
+	<tr><td>EfficientNetB3</td><td>13</td><td>0.75</td><td>0.88</td><td>0.63</td><td>0.78</td><td>0.82</td><td>0.70</td></tr>
+	<tr><td>EfficientNetB4</td><td>46</td><td>0.78</td><td>0.85</td><td>0.71</td><td>0.79</td><td>0.86</td><td>0.74</td></tr>
 </table>
 
 
-**Inpainting Results (Navier-Stokes based method)**
+**Inpainting Results (Navier Stokes based method)**
 <table>
 	<tr>
 		<td>Model</td><td>Settings</td><td colspan="3">Metrics</td><td colspan="3">Micro-Average</td>
@@ -203,25 +202,24 @@ Full results for the deep learning experiments:
 		<td>AUC</td>
 		<td>Precision</td>
 	</tr>	
-	<tr><td>VGG16</td><td>49</td><td>0.79</td><td>0.72</td><td>0.85</td><td>0.77</td><td>0.87</td><td>0.83</td></tr>
-	<tr><td>VGG19</td><td>34</td><td>0.78</td><td>0.72</td><td>0.84</td><td>0.77</td><td>0.86</td><td>0.82</td></tr>
-	<tr><td>Xception</td><td>19</td><td>0.80</td><td>0.78</td><td>0.83</td><td>0.80</td><td>0.88</td><td>0.82</td></tr>
-	<tr><td>ResNet50</td><td>39</td><td>0.79</td><td>0.75</td><td>0.84</td><td>0.78</td><td>0.88</td><td>0.82</td></tr>
-	<tr><td>ResNet101</td><td>33</td><td>0.79</td><td>0.71</td><td>0.87</td><td>0.77</td><td>0.87</td><td>0.85</td></tr>
-	<tr><td>ResNet152</td><td>17</td><td>0.79</td><td>0.73</td><td>0.85</td><td>0.77</td><td>0.88</td><td>0.83</td></tr>
-	<tr><td>ResNet50V2</td><td>20</td><td>0.79</td><td>0.76</td><td>0.81</td><td>0.78</td><td>0.87</td><td>0.80</td></tr>
-	<tr><td>ResNet101V2</td><td>40</td><td>0.79</td><td>0.70</td><td>0.88</td><td>0.77</td><td>0.88</td><td>0.85</td></tr>
-	<tr><td>ResNet152V2</td><td>23</td><td>0.78</td><td>0.75</td><td>0.80</td><td>0.77</td><td>0.86</td><td>0.79</td></tr>
-	<tr><td>InceptionV3</td><td>22</td><td>0.79</td><td>0.77</td><td>0.80</td><td>0.79</td><td>0.87</td><td>0.80</td></tr>
-	<tr><td>InceptionResNetV2</td><td>19</td><td>0.80</td><td>0.81</td><td>0.79</td><td>0.80</td><td>0.88</td><td>0.79</td></tr>
-	<tr><td>DenseNet121</td><td>37</td><td>0.80</td><td>0.77</td><td>0.83</td><td>0.79</td><td>0.88</td><td>0.82</td></tr>
-	<tr><td>DenseNet169</td><td>12</td><td>0.77</td><td>0.75</td><td>0.78</td><td>0.76</td><td>0.85</td><td>0.77</td></tr>
-	<tr><td>DenseNet201</td><td>25</td><td>0.78</td><td>0.75</td><td>0.80</td><td>0.77</td><td>0.86</td><td>0.79</td></tr>
-	<tr><td>EfficientNetB0</td><td>20</td><td>0.77</td><td>0.66</td><td>0.88</td><td>0.74</td><td>0.86</td><td>0.85</td></tr>
-	<tr><td>EfficientNetB1</td><td>13</td><td>0.76</td><td>0.75</td><td>0.78</td><td>0.76</td><td>0.83</td><td>0.77</td></tr>
-	<tr><td>EfficientNetB3</td><td>28</td><td>0.77</td><td>0.73</td><td>0.82</td><td>0.76</td><td>0.86</td><td>0.80</td></tr>
-	<tr><td>EfficientNetB4</td><td>37</td><td>0.78</td><td>0.69</td><td>0.88</td><td>0.76</td><td>0.87</td><td>0.85</td></tr>
-	
+	<tr><td>VGG16</td><td>49</td><td>0.79</td><td>0.85</td><td>0.72</td><td>0.80</td><td>0.87</td><td>0.75</td></tr>
+	<tr><td>VGG19</td><td>34</td><td>0.78</td><td>0.84</td><td>0.72</td><td>0.79</td><td>0.86</td><td>0.75</td></tr>
+	<tr><td>Xception</td><td>19</td><td>0.80</td><td>0.83</td><td>0.78</td><td>0.81</td><td>0.88</td><td>0.79</td></tr>
+	<tr><td>ResNet50</td><td>39</td><td>0.79</td><td>0.84</td><td>0.75</td><td>0.80</td><td>0.88</td><td>0.77</td></tr>
+	<tr><td>ResNet101</td><td>33</td><td>0.79</td><td>0.87</td><td>0.71</td><td>0.81</td><td>0.87</td><td>0.75</td></tr>
+	<tr><td>ResNet152</td><td>17</td><td>0.79</td><td>0.85</td><td>0.73</td><td>0.80</td><td>0.88</td><td>0.76</td></tr>
+	<tr><td>ResNet50V2</td><td>20</td><td>0.79</td><td>0.81</td><td>0.76</td><td>0.79</td><td>0.87</td><td>0.77</td></tr>
+	<tr><td>ResNet101V2</td><td>40</td><td>0.79</td><td>0.88</td><td>0.70</td><td>0.80</td><td>0.88</td><td>0.79</td></tr>
+	<tr><td>ResNet152V2</td><td>23</td><td>0.78</td><td>0.80</td><td>0.75</td><td>0.78</td><td>0.86</td><td>0.76</td></tr>
+	<tr><td>InceptionV3</td><td>22</td><td>0.79</td><td>0.80</td><td>0.77</td><td>0.79</td><td>0.87</td><td>0.78</td></tr>
+	<tr><td>InceptionResNetV2</td><td>19</td><td>0.80</td><td>0.79</td><td>0.81</td><td>0.80</td><td>0.88</td><td>0.81</td></tr>
+	<tr><td>DenseNet121</td><td>37</td><td>0.80</td><td>0.83</td><td>0.77</td><td>0.80</td><td>0.88</td><td>0.78</td></tr>
+	<tr><td>DenseNet169</td><td>12</td><td>0.77</td><td>0.78</td><td>0.75</td><td>0.77</td><td>0.85</td><td>0.76</td></tr>
+	<tr><td>DenseNet201</td><td>25</td><td>0.78</td><td>0.80</td><td>0.75</td><td>0.78</td><td>0.86</td><td>0.76</td></tr>
+	<tr><td>EfficientNetB0</td><td>20</td><td>0.77</td><td>0.88</td><td>0.66</td><td>0.79</td><td>0.86</td><td>0.72</td></tr>
+	<tr><td>EfficientNetB1</td><td>13</td><td>0.76</td><td>0.78</td><td>0.75</td><td>0.77</td><td>0.83</td><td>0.75</td></tr>
+	<tr><td>EfficientNetB3</td><td>28</td><td>0.77</td><td>0.82</td><td>0.73</td><td>0.78</td><td>0.86</td><td>0.75</td></tr>
+	<tr><td>EfficientNetB4</td><td>37</td><td>0.78</td><td>0.88</td><td>0.69</td><td>0.80</td><td>0.87</td><td>0.74</td></tr>
 </table>
 
 **Inpainting Results (Telea based method)**
@@ -239,25 +237,24 @@ Full results for the deep learning experiments:
 		<td>AUC</td>
 		<td>Precision</td>
 	</tr>	
-	<tr><td>VGG16</td><td>54</td><td>0.79</td><td>0.75</td><td>0.82</td><td>0.78</td><td>0.87</td><td>0.81</td></tr>
-	<tr><td>VGG19</td><td>10</td><td>0.71</td><td>0.64</td><td>0.78</td><td>0.69</td><td>0.78</td><td>0.74</td></tr>
-	<tr><td>Xception</td><td>10</td><td>0.79</td><td>0.75</td><td>0.84</td><td>0.79</td><td>0.88</td><td>0.82</td></tr>
-	<tr><td>ResNet50</td><td>10</td><td>0.77</td><td>0.74</td><td>0.81</td><td>0.77</td><td>0.87</td><td>0.79</td></tr>
-	<tr><td>ResNet101</td><td>33</td><td>0.80</td><td>0.79</td><td>0.80</td><td>0.80</td><td>0.88</td><td>0.79</td></tr>
-	<tr><td>ResNet152</td><td>23</td><td>0.79</td><td>0.78</td><td>0.80</td><td>0.79</td><td>0.87</td><td>0.80</td></tr>
-	<tr><td>ResNet50V2</td><td>23</td><td>0.78</td><td>0.81</td><td>0.76</td><td>0.79</td><td>0.87</td><td>0.77</td></tr>
-	<tr><td>ResNet101V2</td><td>25</td><td>0.79</td><td>0.79</td><td>0.78</td><td>0.79</td><td>0.87</td><td>0.78</td></tr>
-	<tr><td>ResNet152V2</td><td>29</td><td>0.79</td><td>0.75</td><td>0.83</td><td>0.78</td><td>0.87</td><td>0.81</td></tr>
-	<tr><td>InceptionV3</td><td>18</td><td>0.79</td><td>0.76</td><td>0.81</td><td>0.78</td><td>0.86</td><td>0.80</td></tr>
-	<tr><td>InceptionResNetV2</td><td>11</td><td>0.79</td><td>0.69</td><td>0.88</td><td>0.76</td><td>0.88</td><td>0.86</td></tr>
+	<tr><td>VGG16</td><td>54</td><td>0.79</td><td>0.82</td><td>0.75</td><td>0.79</td><td>0.87</td><td>0.77</td></tr>
+	<tr><td>VGG19</td><td>10</td><td>0.71</td><td>0.78</td><td>0.64</td><td>0.73</td><td>0.78</td><td>0.68</td></tr>
+	<tr><td>Xception</td><td>10</td><td>0.79</td><td>0.84</td><td>0.75</td><td>0.80</td><td>0.88</td><td>0.77</td></tr>
+	<tr><td>ResNet50</td><td>10</td><td>0.77</td><td>0.81</td><td>0.74</td><td>0.78</td><td>0.87</td><td>0.76</td></tr>
+	<tr><td>ResNet101</td><td>33</td><td>0.80</td><td>0.80</td><td>0.79</td><td>0.80</td><td>0.88</td><td>0.79</td></tr>
+	<tr><td>ResNet152</td><td>23</td><td>0.79</td><td>0.80</td><td>0.78</td><td>0.79</td><td>0.87</td><td>0.78</td></tr>
+	<tr><td>ResNet50V2</td><td>23</td><td>0.78</td><td>0.76</td><td>0.81</td><td>0.78</td><td>0.87</td><td>0.80</td></tr>
+	<tr><td>ResNet101V2</td><td>25</td><td>0.79</td><td>0.78</td><td>0.79</td><td>0.78</td><td>0.87</td><td>0.79</td></tr>
+	<tr><td>ResNet152V2</td><td>29</td><td>0.79</td><td>0.83</td><td>0.75</td><td>0.80</td><td>0.87</td><td>0.77</td></tr>
+	<tr><td>InceptionV3</td><td>18</td><td>0.79</td><td>0.81</td><td>0.76</td><td>0.79</td><td>0.86</td><td>0.77</td></tr>
+	<tr><td>InceptionResNetV2</td><td>11</td><td>0.79</td><td>0.88</td><td>0.69</td><td>0.81</td><td>0.88</td><td>0.74</td></tr>
 	<tr><td>DenseNet121</td><td>61</td><td>0.80</td><td>0.80</td><td>0.80</td><td>0.80</td><td>0.88</td><td>0.80</td></tr>
-	<tr><td>DenseNet169</td><td>18</td><td>0.78</td><td>0.80</td><td>0.75</td><td>0.78</td><td>0.87</td><td>0.76</td></tr>
-	<tr><td>DenseNet201</td><td>38</td><td>0.79</td><td>0.73</td><td>0.84</td><td>0.77</td><td>0.87</td><td>0.82</td></tr>
-	<tr><td>EfficientNetB0</td><td>18</td><td>0.78</td><td>0.72</td><td>0.85</td><td>0.77</td><td>0.87</td><td>0.83</td></tr>
-	<tr><td>EfficientNetB1</td><td>51</td><td>0.78</td><td>0.79</td><td>0.86</td><td>0.78</td><td>0.87</td><td>0.77</td></tr>
-	<tr><td>EfficientNetB3</td><td>49</td><td>0.79</td><td>0.78</td><td>0.79</td><td>0.78</td><td>0.87</td><td>0.79</td></tr>
-	<tr><td>EfficientNetB4</td><td>10</td><td>0.75</td><td>0.64</td><td>0.86</td><td>0.72</td><td>0.82</td><td>0.82</td></tr>
-	
+	<tr><td>DenseNet169</td><td>18</td><td>0.78</td><td>0.75</td><td>0.80</td><td>0.77</td><td>0.87</td><td>0.79</td></tr>
+	<tr><td>DenseNet201</td><td>38</td><td>0.79</td><td>0.84</td><td>0.73</td><td>0.80</td><td>0.87</td><td>0.76</td></tr>
+	<tr><td>EfficientNetB0</td><td>18</td><td>0.78</td><td>0.85</td><td>0.72</td><td>0.80</td><td>0.87</td><td>0.75</td></tr>
+	<tr><td>EfficientNetB1</td><td>51</td><td>0.78</td><td>0.86</td><td>0.79</td><td>0.78</td><td>0.87</td><td>0.79</td></tr>
+	<tr><td>EfficientNetB3</td><td>49</td><td>0.79</td><td>0.79</td><td>0.78</td><td>0.79</td><td>0.87</td><td>0.78</td></tr>
+	<tr><td>EfficientNetB4</td><td>10</td><td>0.75</td><td>0.86</td><td>0.64</td><td>0.77</td><td>0.82</td><td>0.71</td></tr>
 </table>
 
 ## References
