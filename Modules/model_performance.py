@@ -14,7 +14,8 @@ get_metrics
 """
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import ImageDataGenerator  
-from sklearn.metrics import confusion_matrix, roc_curve, auc
+from sklearn.metrics import confusion_matrix, roc_curve, auc, ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
 import numpy as np
 
 def main():
@@ -24,8 +25,8 @@ def main():
     
     """
     metrics = get_metrics(
-        model_path = "D:/OneDrive/Desktop/Lesion_Classification/Models/Baseline/EfficientNetB3/SGD/64/EfficientNetB3_batchSize_0_opt_SGD_model.13.h5",
-        src_path_val = r"D:\OneDrive\Desktop\Lesion_Classification\Data\train_balanced_224x224\val"
+        model_path = "D:/OneDrive - MMU/Complete_Final_Project/Lesion_Classification/Models/Inpaint_Telea/EfficientNetB4/SGD/64/EfficientNetB4_batchSize_0_opt_SGD_model.10.h5",
+        src_path_val = r"D:/OneDrive - MMU/Complete_Final_Project/Lesion_Classification/Data/train_balanced_224x224_inpainted_telea/val"
     )
 
 def get_metrics(model_path, src_path_val):
@@ -81,7 +82,13 @@ def get_metrics(model_path, src_path_val):
     print("Confusion Matrix:\n", matrix, "\n")
 
     # Compute metrics
-    TP, FP, FN, TN = matrix[1][1], matrix[0][1], matrix[1][0], matrix[0][0]
+    TP, FP, FN, TN = matrix[0][0], matrix[1][0], matrix[0][1], matrix[1][1]
+    
+    ###### If in doubt with the confusion matrix values, use this plot to help understand the correct TP,FP positioning
+    #disp = ConfusionMatrixDisplay(confusion_matrix=matrix, display_labels=["Mel", "Oth"])
+    #disp.plot()
+    #plt.show()
+    
     sensitivity = TP/(TP+FN)
     specificity = TN/(TN+FP)
     f1 = 2*TP/(2*TP+FP+FN)
@@ -102,7 +109,7 @@ def get_metrics(model_path, src_path_val):
     print("F1:", f1)
     print("Precision:", precision)
     print("Recall:", precision)
-    #print("Accuracy:", accuracy)
+    print("Accuracy:", accuracy)
     #print("ROC:", roc_auc[0])
     #print("AUC:", roc_auc[1])
     
