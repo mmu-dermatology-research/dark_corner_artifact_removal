@@ -101,11 +101,11 @@ Dark_Corner_Artifact_Removal
 ## Project Pre-requisite Setup
 
 1. Generate the ISIC balanced dataset from <url>https://github.com/mmu-dermatology-research/isic_duplicate_removal_strategy</url> and save inside the <code>Data</code> directory.
-1. Download <code>EDSR_x4.pb</code> from <url>https://github.com/Saafke/EDSR_Tensorflow</url> and save inside the <code>Models</code> directory. <code>/Models/EDSR_x4.pb</code>
-2. Create Dermofit directory inside Data directory. <code>Data/Dermofit</code>
-3. Load Dermofit image library <url>https://licensing.edinburgh-innovations.ed.ac.uk/product/dermofit-image-library</url> inside the Dermofit directory. This will be split into many sub-folders (AK, ALLBCC, ALLDF, etc...), leave that as it is.
-4. Create Metrics_Dermofit file structure as shown above.
-5. Modify filepaths and run <code>/Modules/prepare_dermofit.py</code> **only** if using dermofit.
+2. Download <code>EDSR_x4.pb</code> from <url>https://github.com/Saafke/EDSR_Tensorflow</url> and save inside the <code>Models</code> directory. <code>/Models/EDSR_x4.pb</code>
+3. Create Dermofit directory inside Data directory. <code>Data/Dermofit</code>
+4. Load Dermofit image library <url>https://licensing.edinburgh-innovations.ed.ac.uk/product/dermofit-image-library</url> inside the Dermofit directory. This will be split into many sub-folders (AK, ALLBCC, ALLDF, etc...), leave that as it is.
+5. Create Metrics_Dermofit file structure as shown above.
+6. Modify filepaths and run <code>/Modules/prepare_dermofit.py</code> **only** if using dermofit.
 
 ## Requirements
 
