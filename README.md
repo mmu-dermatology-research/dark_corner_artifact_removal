@@ -6,7 +6,7 @@ Please read the DISCLAIMER before using any of the methods or code from this rep
 
 If you use any part of the DCA masking/removal process in this research project, please consider citing this paper:
 
-```
+```BibTex
 @inproceedings{pewton2022skin,
   author    = {Samuel William Pewton and Moi Hoon Yap},
   booktitle = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
@@ -21,7 +21,7 @@ The main dataset used in this research is the result from the duplicate removal 
 
 If using this dataset or any of the associated methods then please consider citing the following paper:
 
-```
+```BibTex
 @article{cassidy2021isic,
  title   = {Analysis of the ISIC Image Datasets: Usage, Benchmarks and Recommendations},
  author  = {Bill Cassidy and Connah Kendrick and Andrzej Brodzicki and Joanna Jaworek-Korjakowska and Moi Hoon Yap},
