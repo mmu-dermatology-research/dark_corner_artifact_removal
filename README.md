@@ -7,13 +7,13 @@ Please read the DISCLAIMER before using any of the methods or code from this rep
 If you use any part of the DCA masking/removal process in this research project, please consider citing this paper:
 
 ```
-@InProceedings{Pewton_2022_CVPR, 
- author = {Pewton, Samuel William and Yap, Moi Hoon},
- title = {Dark Corner on Skin Lesion Image Dataset: Does It Matter?},
- booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
- month = {June},
- year = {2022},
- pages = {4831-4839}
+@inproceedings{pewton2022skin,
+  author    = {Samuel William Pewton and Moi Hoon Yap},
+  booktitle = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title     = {Dark Corner on Skin Lesion Image Dataset: Does it matter?}, 
+  year      = {2022},
+  pages     = {4830-4838},
+  doi       = {10.1109/CVPRW56347.2022.00530}
 }
 ```
 
